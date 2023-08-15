@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>EBSG - Expanded Social Genes</name>
+  <author>alite</author>
+  <packageId>EBSG.Social</packageId>
+  <supportedVersions>
+    <li>1.4</li>
+  </supportedVersions>
+  
+  <modDependencies>
+    <li>
+      <packageId>ludeon.rimworld.biotech</packageId>
+      <displayName>Biotech</displayName>
+    </li>
+  </modDependencies>
+
+  <loadAfter>
+    <li>Ludeon.RimWorld.Royalty</li>
+    <li>Ludeon.RimWorld.Ideology</li>
+    <li>Ludeon.RimWorld.Biotech</li>
+  </loadAfter>
+
+  <description>
+Expanded Biotech Style Genes(EBSG) is the step beyond [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2985153870]More Biotech Style Genes[/url]. Where that series sought to expand ranges that already exist, this series seeks to add ranges that should exist. You get gene ranges that alter sleep fall rate, but why not a range for changing the rate it recovers? If you can have fire resistance genes, why not have genes to resist other types of damage like frostbite and acid?
+
+This mod adds 40 genes that impact how well a pawn communicates and negotiates with others. 36 of these genes come in 3 groups, Convincing(impacts negotiation ability and conversion power), Suave(impacts social impact and trade price), and Terrifying(impacts arrest chance and suppression). There are also 2 genes that impact romancing chance, Crass, which makes it significantly more difficult to romance non-crass pawns, and Enchanting, which makes it a lot easier for the pawn to seduce non-enchanting pawns.
+
+The genes that provide benefits multiply their related bonuses by 25% more per level(250% multiplier at hyper), while the negative genes multiply by 15% less per level(10% at hyper).
+
+If you do not have ideology, then those parts should be ignored, and the genes will only contain the non-ideology portions. If you do have Ideology, then you get a Preacher gene, which multipliers the ideoligion spread chance by 3, and an Unpreachy gene that multiplies the chance by 0.1. I don't plan on adding more variance to that because usually you either want a lot of religion conversion, or you want to stop the constant fights.
+
+This mod will eventually be put into Expanded Biotech Style Genes - All in One. If that mod exists and you still see this message, please let me know I forgot to add the link here.
+
+[url=https://discord.gg/fYP8qkcNDh]Discord link[/url] for those who want an easier way to ask questions, make requests, or just chat. I'll also be posting new releases there.
+
+[url=https://steamcommunity.com/id/alite/myworkshopfiles/?appid=294100]Easy link to all of my Rimworld mods[/url]
+
+[url=https://github.com/KonradHeinser/ExpandedSocialGenes][img]https://i.imgur.com/kTkpTOE.png[/img][/url]
+[url=https://ko-fi.com/alite56114][img]https://i.imgur.com/Utx6OIH.png[/img][/url]
+  </description>
+</ModMetaData>
+
+<!--Original textures for gene icons are available on https://game-icons.net-->

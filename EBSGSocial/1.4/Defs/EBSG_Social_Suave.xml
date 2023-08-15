@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <GeneDef ParentName="EBSG_Social_Suave">
+        <defName>EBSG_HyperBoorish</defName>
+        <label>hyper boorish</label>
+        <description>Carriers of this gene are innately unbelievably boorish, making it more likely that others will be completely uninterested in whatever the pawn is talking about.</description>
+        <iconPath>EBSG/Gene_ExtremelyBoorish</iconPath>
+        <displayOrderInCategory>102</displayOrderInCategory>
+        <biostatMet>6</biostatMet>
+        <statFactors>
+            <SocialImpact>0.10</SocialImpact>
+            <TradePriceImprovement>0.10</TradePriceImprovement>
+        </statFactors>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>boor</symbol></li>
+            </prefixSymbols>
+        </symbolPack>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Social_Suave">
+        <defName>EBSG_SuperBoorish</defName>
+        <label>super boorish</label>
+        <description>Carriers of this gene are innately super boorish, making it more likely that others will be completely uninterested in whatever the pawn is talking about.</description>
+        <iconPath>EBSG/Gene_ExtremelyBoorish</iconPath>
+        <displayOrderInCategory>102.1</displayOrderInCategory>
+        <biostatMet>5</biostatMet>
+        <statFactors>
+            <SocialImpact>0.25</SocialImpact>
+            <TradePriceImprovement>0.25</TradePriceImprovement>
+        </statFactors>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>boor</symbol></li>
+            </prefixSymbols>
+        </symbolPack>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Social_Suave">
+        <defName>EBSG_ExtremeBoorish</defName>
+        <label>extremely boorish</label>
+        <description>Carriers of this gene are innately extremely boorish, making it more likely that others will be completely uninterested in whatever the pawn is talking about.</description>
+        <iconPath>EBSG/Gene_ExtremelyBoorish</iconPath>
+        <displayOrderInCategory>102.2</displayOrderInCategory>
+        <biostatMet>4</biostatMet>
+        <statFactors>
+            <SocialImpact>0.40</SocialImpact>
+            <TradePriceImprovement>0.40</TradePriceImprovement>
+        </statFactors>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>boor</symbol></li>
+            </prefixSymbols>
+        </symbolPack>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Social_Suave">
+        <defName>EBSG_VeryBoorish</defName>
+        <label>very boorish</label>
+        <description>Carriers of this gene are innately very boorish, making it more likely that others will be completely uninterested in whatever the pawn is talking about.</description>
+        <iconPath>EBSG/Gene_Boorish</iconPath>
+        <displayOrderInCategory>102.3</displayOrderInCategory>
+        <biostatMet>3</biostatMet>
+        <statFactors>
+            <SocialImpact>0.55</SocialImpact>
+            <TradePriceImprovement>0.55</TradePriceImprovement>
+        </statFactors>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>boor</symbol></li>
+            </prefixSymbols>
+        </symbolPack>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Social_Suave">
+        <defName>EBSG_Boorish</defName>
+        <label>boorish</label>
+        <description>Carriers of this gene are innately boorish, making it more likely that others will be completely uninterested in whatever the pawn is talking about.</description>
+        <iconPath>EBSG/Gene_Boorish</iconPath>
+        <displayOrderInCategory>102.4</displayOrderInCategory>
+        <biostatMet>2</biostatMet>
+        <statFactors>
+            <SocialImpact>0.70</SocialImpact>
+            <TradePriceImprovement>0.70</TradePriceImprovement>
+        </statFactors>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>boor</symbol></li>
+            </prefixSymbols>
+        </symbolPack>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Social_Suave">
+        <defName>EBSG_SomewhatBoorish</defName>
+        <label>somewhat boorish</label>
+        <description>Carriers of this gene are innately somewhat boorish, making it more likely that others will be completely uninterested in whatever the pawn is talking about.</description>
+        <iconPath>EBSG/Gene_Boorish</iconPath>
+        <displayOrderInCategory>102.5</displayOrderInCategory>
+        <biostatMet>1</biostatMet>
+        <statFactors>
+            <SocialImpact>0.85</SocialImpact>
+            <TradePriceImprovement>0.85</TradePriceImprovement>
+        </statFactors>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>boor</symbol></li>
+            </prefixSymbols>
+        </symbolPack>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Social_Suave">
+        <defName>EBSG_SomewhatSuave</defName>
+        <label>somewhat suave</label>
+        <description>Carriers of this gene are innately a little suave. This helps them keep others interested in what you're talking about.</description>
+        <iconPath>EBSG/Gene_Suave</iconPath>
+        <displayOrderInCategory>102.6</displayOrderInCategory>
+        <biostatMet>-1</biostatMet>
+        <statFactors>
+            <SocialImpact>1.25</SocialImpact>
+            <TradePriceImprovement>1.25</TradePriceImprovement>
+        </statFactors>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>sua</symbol></li>
+            </prefixSymbols>
+        </symbolPack>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Social_Suave">
+        <defName>EBSG_Suave</defName>
+        <label>suave</label>
+        <description>Carriers of this gene are innately suave. This helps them keep others interested in what you're talking about.</description>
+        <iconPath>EBSG/Gene_Suave</iconPath>
+        <displayOrderInCategory>102.7</displayOrderInCategory>
+        <biostatMet>-2</biostatMet>
+        <statFactors>
+            <SocialImpact>1.50</SocialImpact>
+            <TradePriceImprovement>1.50</TradePriceImprovement>
+        </statFactors>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>sua</symbol></li>
+            </prefixSymbols>
+        </symbolPack>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Social_Suave">
+        <defName>EBSG_VerySuave</defName>
+        <label>very suave</label>
+        <description>Carriers of this gene are innately very suave. This helps them keep others interested in what you're talking about.</description>
+        <iconPath>EBSG/Gene_Suave</iconPath>
+        <displayOrderInCategory>102.8</displayOrderInCategory>
+        <biostatMet>-3</biostatMet>
+        <statFactors>
+            <SocialImpact>1.75</SocialImpact>
+            <TradePriceImprovement>1.75</TradePriceImprovement>
+        </statFactors>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>sua</symbol></li>
+            </prefixSymbols>
+        </symbolPack>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Social_Suave">
+        <defName>EBSG_ExtremelySuave</defName>
+        <label>extremely suave</label>
+        <description>Carriers of this gene are innately extremely suave. This helps them keep others interested in what you're talking about.</description>
+        <iconPath>EBSG/Gene_ExtremelySuave</iconPath>
+        <displayOrderInCategory>102.9</displayOrderInCategory>
+        <biostatMet>-4</biostatMet>
+        <statFactors>
+            <SocialImpact>2.00</SocialImpact>
+            <TradePriceImprovement>2.00</TradePriceImprovement>
+        </statFactors>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>sua</symbol></li>
+            </prefixSymbols>
+        </symbolPack>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Social_Suave">
+        <defName>EBSG_SuperSuave</defName>
+        <label>super suave</label>
+        <description>Carriers of this gene are innately super suave. This helps them keep others interested in what you're talking about.</description>
+        <iconPath>EBSG/Gene_ExtremelySuave</iconPath>
+        <displayOrderInCategory>103</displayOrderInCategory>
+        <biostatMet>-5</biostatMet>
+        <statFactors>
+            <SocialImpact>2.25</SocialImpact>
+            <TradePriceImprovement>2.25</TradePriceImprovement>
+        </statFactors>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>sua</symbol></li>
+            </prefixSymbols>
+        </symbolPack>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Social_Suave">
+        <defName>EBSG_HyperSuave</defName>
+        <label>hyper suave</label>
+        <description>Carriers of this gene are innately unbelievably suave. This helps them keep others interested in what you're talking about.</description>
+        <iconPath>EBSG/Gene_ExtremelySuave</iconPath>
+        <displayOrderInCategory>103.1</displayOrderInCategory>
+        <biostatMet>-6</biostatMet>
+        <statFactors>
+            <SocialImpact>2.50</SocialImpact>
+            <TradePriceImprovement>2.50</TradePriceImprovement>
+        </statFactors>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>sua</symbol></li>
+            </prefixSymbols>
+        </symbolPack>
+    </GeneDef>
+</Defs>

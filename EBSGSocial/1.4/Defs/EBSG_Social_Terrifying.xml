@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <GeneDef ParentName="EBSG_Social_Terrifying">
+        <defName>EBSG_HyperUnimposing</defName>
+        <label>hyper unimposing</label>
+        <description>Carriers of this gene are completely unimposing, making it more likely that others will ignore them when told to submit.</description>
+        <iconPath>EBSG/Gene_ExtremelyUnimposing</iconPath>
+        <displayOrderInCategory>100</displayOrderInCategory>
+        <biostatMet>6</biostatMet>
+        <statFactors>
+            <ArrestSuccessChance>0.10</ArrestSuccessChance>
+            <SuppressionPower MayRequire="Ludeon.RimWorld.Ideology">0.10</SuppressionPower>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Social_Terrifying">
+        <defName>EBSG_SuperUnimposing</defName>
+        <label>super unimposing</label>
+        <description>Carriers of this gene are innately super unimposing, making it more likely that others will ignore them when told to submit.</description>
+        <iconPath>EBSG/Gene_ExtremelyUnimposing</iconPath>
+        <displayOrderInCategory>100.1</displayOrderInCategory>
+        <biostatMet>5</biostatMet>
+        <statFactors>
+            <ArrestSuccessChance>0.25</ArrestSuccessChance>
+            <SuppressionPower MayRequire="Ludeon.RimWorld.Ideology">0.25</SuppressionPower>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Social_Terrifying">
+        <defName>EBSG_ExtremeUnimposing</defName>
+        <label>extremely unimposing</label>
+        <description>Carriers of this gene are innately extremely unimposing, making it more likely that others will ignore them when told to submit.</description>
+        <iconPath>EBSG/Gene_ExtremelyUnimposing</iconPath>
+        <displayOrderInCategory>100.2</displayOrderInCategory>
+        <biostatMet>4</biostatMet>
+        <statFactors>
+            <ArrestSuccessChance>0.40</ArrestSuccessChance>
+            <SuppressionPower MayRequire="Ludeon.RimWorld.Ideology">0.40</SuppressionPower>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Social_Terrifying">
+        <defName>EBSG_VeryUnimposing</defName>
+        <label>very unimposing</label>
+        <description>Carriers of this gene are innately very unimposing, making it more likely that others will ignore them when told to submit.</description>
+        <iconPath>EBSG/Gene_Unimposing</iconPath>
+        <displayOrderInCategory>100.3</displayOrderInCategory>
+        <biostatMet>3</biostatMet>
+        <statFactors>
+            <ArrestSuccessChance>0.55</ArrestSuccessChance>
+            <SuppressionPower MayRequire="Ludeon.RimWorld.Ideology">0.55</SuppressionPower>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Social_Terrifying">
+        <defName>EBSG_Unimposing</defName>
+        <label>unimposing</label>
+        <description>Carriers of this gene are innately unimposing, making it more likely that others will ignore them when told to submit.</description>
+        <iconPath>EBSG/Gene_Unimposing</iconPath>
+        <displayOrderInCategory>100.4</displayOrderInCategory>
+        <biostatMet>2</biostatMet>
+        <statFactors>
+            <ArrestSuccessChance>0.70</ArrestSuccessChance>
+            <SuppressionPower MayRequire="Ludeon.RimWorld.Ideology">0.70</SuppressionPower>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Social_Terrifying">
+        <defName>EBSG_SomewhatUnimposing</defName>
+        <label>somewhat unimposing</label>
+        <description>Carriers of this gene are innately somewhat unimposing, making it more likely that others will ignore them when told to submit.</description>
+        <iconPath>EBSG/Gene_Unimposing</iconPath>
+        <displayOrderInCategory>100.5</displayOrderInCategory>
+        <biostatMet>1</biostatMet>
+        <statFactors>
+            <ArrestSuccessChance>0.85</ArrestSuccessChance>
+            <SuppressionPower MayRequire="Ludeon.RimWorld.Ideology">0.85</SuppressionPower>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Social_Terrifying">
+        <defName>EBSG_SomewhatTerrifying</defName>
+        <label>somewhat terrifying</label>
+        <description>Carriers of this gene are innately a little terrifying when giving commands. They are more likely to be able to keep others in line when the need arises.</description>
+        <iconPath>EBSG/Gene_Terrifying</iconPath>
+        <displayOrderInCategory>100.6</displayOrderInCategory>
+        <biostatMet>-1</biostatMet>
+        <statFactors>
+            <ArrestSuccessChance>1.25</ArrestSuccessChance>
+            <SuppressionPower MayRequire="Ludeon.RimWorld.Ideology">1.25</SuppressionPower>
+        </statFactors>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>terri</symbol></li>
+            </prefixSymbols>
+        </symbolPack>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Social_Terrifying">
+        <defName>EBSG_Terrifying</defName>
+        <label>terrifying</label>
+        <description>Carriers of this gene are innately terrifying when giving commands. They are more likely to be able to keep others in line when the need arises.</description>
+        <iconPath>EBSG/Gene_Terrifying</iconPath>
+        <displayOrderInCategory>100.7</displayOrderInCategory>
+        <biostatMet>-2</biostatMet>
+        <statFactors>
+            <ArrestSuccessChance>1.50</ArrestSuccessChance>
+            <SuppressionPower MayRequire="Ludeon.RimWorld.Ideology">1.50</SuppressionPower>
+        </statFactors>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>terri</symbol></li>
+            </prefixSymbols>
+        </symbolPack>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Social_Terrifying">
+        <defName>EBSG_VeryTerrifying</defName>
+        <label>very terrifying</label>
+        <description>Carriers of this gene are innately very terrifying when giving commands. They are more likely to be able to keep others in line when the need arises.</description>
+        <iconPath>EBSG/Gene_Terrifying</iconPath>
+        <displayOrderInCategory>100.8</displayOrderInCategory>
+        <biostatMet>-3</biostatMet>
+        <statFactors>
+            <ArrestSuccessChance>1.75</ArrestSuccessChance>
+            <SuppressionPower MayRequire="Ludeon.RimWorld.Ideology">1.75</SuppressionPower>
+        </statFactors>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>terri</symbol></li>
+            </prefixSymbols>
+        </symbolPack>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Social_Terrifying">
+        <defName>EBSG_ExtremelyTerrifying</defName>
+        <label>extremely terrifying</label>
+        <description>Carriers of this gene are innately extremely terrifying when giving commands. They are more likely to be able to keep others in line when the need arises.</description>
+        <iconPath>EBSG/Gene_ExtremelyTerrifying</iconPath>
+        <displayOrderInCategory>100.9</displayOrderInCategory>
+        <biostatMet>-4</biostatMet>
+        <statFactors>
+            <ArrestSuccessChance>2.00</ArrestSuccessChance>
+            <SuppressionPower MayRequire="Ludeon.RimWorld.Ideology">2.00</SuppressionPower>
+        </statFactors>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>terri</symbol></li>
+            </prefixSymbols>
+        </symbolPack>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Social_Terrifying">
+        <defName>EBSG_SuperTerrifying</defName>
+        <label>super terrifying</label>
+        <description>Carriers of this gene are innately super terrifying when giving commands. They are more likely to be able to keep others in line when the need arises.</description>
+        <iconPath>EBSG/Gene_ExtremelyTerrifying</iconPath>
+        <displayOrderInCategory>101</displayOrderInCategory>
+        <biostatMet>-5</biostatMet>
+        <statFactors>
+            <ArrestSuccessChance>2.25</ArrestSuccessChance>
+            <SuppressionPower MayRequire="Ludeon.RimWorld.Ideology">2.25</SuppressionPower>
+        </statFactors>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>terri</symbol></li>
+            </prefixSymbols>
+        </symbolPack>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Social_Terrifying">
+        <defName>EBSG_HyperTerrifying</defName>
+        <label>hyper terrifying</label>
+        <description>Carriers of this gene are absolutely terrifying when giving commands. They are more likely to be able to keep others in line when the need arises.</description>
+        <iconPath>EBSG/Gene_ExtremelyTerrifying</iconPath>
+        <displayOrderInCategory>101.1</displayOrderInCategory>
+        <biostatMet>-6</biostatMet>
+        <statFactors>
+            <ArrestSuccessChance>2.50</ArrestSuccessChance>
+            <SuppressionPower MayRequire="Ludeon.RimWorld.Ideology">2.50</SuppressionPower>
+        </statFactors>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>terri</symbol></li>
+            </prefixSymbols>
+        </symbolPack>
+    </GeneDef>
+</Defs>

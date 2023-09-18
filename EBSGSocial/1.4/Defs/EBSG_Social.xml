@@ -36,6 +36,9 @@
                 <li><symbol>sedu</symbol></li>
             </prefixSymbols>
         </symbolPack>
+        <exclusionTags>
+            <li>EBSG_MissingRomance</li>
+        </exclusionTags>
     </GeneDef>
 
     <GeneDef>
@@ -47,6 +50,9 @@
         <displayOrderInCategory>99.9</displayOrderInCategory>
         <missingGeneRomanceChanceFactor>0.1</missingGeneRomanceChanceFactor>
         <biostatMet>1</biostatMet>
+        <exclusionTags>
+            <li>EBSG_MissingRomance</li>
+        </exclusionTags>
     </GeneDef>
 
     <GeneDef MayRequire="Ludeon.RimWorld.Ideology">

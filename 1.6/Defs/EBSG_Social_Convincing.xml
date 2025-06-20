@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <GeneDef ParentName="EBSG_Social_Convincing">
+        <defName>EBSG_HyperUnconvincing</defName>
+        <label>hyper unconvincing</label>
+        <description>Carriers of this gene are unbelievably unconvincing, making it much harder for them to convince others to join their side.</description>
+        <iconPath>EBSG/Gene_ExtremelyUnconvincing</iconPath>
+        <displayOrderInCategory>104</displayOrderInCategory>
+        <biostatMet>6</biostatMet>
+        <statFactors>
+            <NegotiationAbility>0.10</NegotiationAbility>
+            <ConversionPower MayRequire="Ludeon.RimWorld.Ideology">0.10</ConversionPower>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Social_Convincing">
+        <defName>EBSG_SuperUnconvincing</defName>
+        <label>super unconvincing</label>
+        <description>Carriers of this gene are innately super unconvincing, making it much harder for them to convince others to join their side.</description>
+        <iconPath>EBSG/Gene_ExtremelyUnconvincing</iconPath>
+        <displayOrderInCategory>104.1</displayOrderInCategory>
+        <biostatMet>5</biostatMet>
+        <statFactors>
+            <NegotiationAbility>0.25</NegotiationAbility>
+            <ConversionPower MayRequire="Ludeon.RimWorld.Ideology">0.25</ConversionPower>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Social_Convincing">
+        <defName>EBSG_ExtremeUnconvincing</defName>
+        <label>extremely unconvincing</label>
+        <description>Carriers of this gene are innately extremely unconvincing, making it much harder for them to convince others to join their side.</description>
+        <iconPath>EBSG/Gene_ExtremelyUnconvincing</iconPath>
+        <displayOrderInCategory>104.2</displayOrderInCategory>
+        <biostatMet>4</biostatMet>
+        <statFactors>
+            <NegotiationAbility>0.40</NegotiationAbility>
+            <ConversionPower MayRequire="Ludeon.RimWorld.Ideology">0.40</ConversionPower>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Social_Convincing">
+        <defName>EBSG_VeryUnconvincing</defName>
+        <label>very unconvincing</label>
+        <description>Carriers of this gene are innately very unconvincing, making it much harder for them to convince others to join their side.</description>
+        <iconPath>EBSG/Gene_Unconvincing</iconPath>
+        <displayOrderInCategory>104.3</displayOrderInCategory>
+        <biostatMet>3</biostatMet>
+        <statFactors>
+            <NegotiationAbility>0.55</NegotiationAbility>
+            <ConversionPower MayRequire="Ludeon.RimWorld.Ideology">0.55</ConversionPower>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Social_Convincing">
+        <defName>EBSG_Unconvincing</defName>
+        <label>unconvincing</label>
+        <description>Carriers of this gene are innately unconvincing, making it much harder for them to convince others to join their side.</description>
+        <iconPath>EBSG/Gene_Unconvincing</iconPath>
+        <displayOrderInCategory>104.4</displayOrderInCategory>
+        <biostatMet>2</biostatMet>
+        <statFactors>
+            <NegotiationAbility>0.70</NegotiationAbility>
+            <ConversionPower MayRequire="Ludeon.RimWorld.Ideology">0.70</ConversionPower>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Social_Convincing">
+        <defName>EBSG_SomewhatUnconvincing</defName>
+        <label>somewhat unconvincing</label>
+        <description>Carriers of this gene are innately somewhat unconvincing, making it much harder for them to convince others to join their side.</description>
+        <iconPath>EBSG/Gene_Unconvincing</iconPath>
+        <displayOrderInCategory>104.5</displayOrderInCategory>
+        <biostatMet>1</biostatMet>
+        <statFactors>
+            <NegotiationAbility>0.85</NegotiationAbility>
+            <ConversionPower MayRequire="Ludeon.RimWorld.Ideology">0.85</ConversionPower>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Social_Convincing">
+        <defName>EBSG_SomewhatConvincing</defName>
+        <label>somewhat convincing</label>
+        <description>Carriers of this gene are innately a little more convincing than most. They have an easier time convincing others to join their side.</description>
+        <iconPath>EBSG/Gene_Convincing</iconPath>
+        <displayOrderInCategory>104.6</displayOrderInCategory>
+        <biostatMet>-1</biostatMet>
+        <statFactors>
+            <NegotiationAbility>1.25</NegotiationAbility>
+            <ConversionPower MayRequire="Ludeon.RimWorld.Ideology">1.25</ConversionPower>
+        </statFactors>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>conv</symbol></li>
+            </prefixSymbols>
+        </symbolPack>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Social_Convincing">
+        <defName>EBSG_Convincing</defName>
+        <label>convincing</label>
+        <description>Carriers of this gene are innately more convincing than most. They have an easier time convincing others to join their side.</description>
+        <iconPath>EBSG/Gene_Convincing</iconPath>
+        <displayOrderInCategory>104.7</displayOrderInCategory>
+        <biostatMet>-2</biostatMet>
+        <statFactors>
+            <NegotiationAbility>1.50</NegotiationAbility>
+            <ConversionPower MayRequire="Ludeon.RimWorld.Ideology">1.50</ConversionPower>
+        </statFactors>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>conv</symbol></li>
+            </prefixSymbols>
+        </symbolPack>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Social_Convincing">
+        <defName>EBSG_VeryConvincing</defName>
+        <label>very convincing</label>
+        <description>Carriers of this gene are innately very convincing compared to most people. They have an easier time convincing others to join their side.</description>
+        <iconPath>EBSG/Gene_Convincing</iconPath>
+        <displayOrderInCategory>104.8</displayOrderInCategory>
+        <biostatMet>-3</biostatMet>
+        <statFactors>
+            <NegotiationAbility>1.75</NegotiationAbility>
+            <ConversionPower MayRequire="Ludeon.RimWorld.Ideology">1.75</ConversionPower>
+        </statFactors>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>conv</symbol></li>
+            </prefixSymbols>
+        </symbolPack>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Social_Convincing">
+        <defName>EBSG_ExtremelyConvincing</defName>
+        <label>extremely convincing</label>
+        <description>Carriers of this gene are innately extremely good at convincing people. They have an easier time convincing others to join their side.</description>
+        <iconPath>EBSG/Gene_ExtremelyConvincing</iconPath>
+        <displayOrderInCategory>104.9</displayOrderInCategory>
+        <biostatMet>-4</biostatMet>
+        <statFactors>
+            <NegotiationAbility>2.00</NegotiationAbility>
+            <ConversionPower MayRequire="Ludeon.RimWorld.Ideology">2.00</ConversionPower>
+        </statFactors>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>conv</symbol></li>
+            </prefixSymbols>
+        </symbolPack>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Social_Convincing">
+        <defName>EBSG_SuperConvincing</defName>
+        <label>super convincing</label>
+        <description>Carriers of this gene are innately super good at convincing people. They have an easier time convincing others to join their side.</description>
+        <iconPath>EBSG/Gene_ExtremelyConvincing</iconPath>
+        <displayOrderInCategory>105</displayOrderInCategory>
+        <biostatMet>-5</biostatMet>
+        <statFactors>
+            <NegotiationAbility>2.25</NegotiationAbility>
+            <ConversionPower MayRequire="Ludeon.RimWorld.Ideology">2.25</ConversionPower>
+        </statFactors>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>conv</symbol></li>
+            </prefixSymbols>
+        </symbolPack>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Social_Convincing">
+        <defName>EBSG_HyperConvincing</defName>
+        <label>hyper convincing</label>
+        <description>Carriers of this gene are unbelievably great at convincing people. They have an easier time convincing others to join their side.</description>
+        <iconPath>EBSG/Gene_ExtremelyConvincing</iconPath>
+        <displayOrderInCategory>105.1</displayOrderInCategory>
+        <biostatMet>-6</biostatMet>
+        <statFactors>
+            <NegotiationAbility>2.50</NegotiationAbility>
+            <ConversionPower MayRequire="Ludeon.RimWorld.Ideology">2.50</ConversionPower>
+        </statFactors>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>conv</symbol></li>
+            </prefixSymbols>
+        </symbolPack>
+    </GeneDef>
+</Defs>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <GeneDef Abstract="true" Name="EBSG_Social_Convincing">
+        <displayCategory>Beauty</displayCategory>
+        <exclusionTags>
+            <li>EBSG_Social_Convincing</li>
+        </exclusionTags>
+    </GeneDef>
+
+    <GeneDef Abstract="true" Name="EBSG_Social_Suave">
+        <displayCategory>Beauty</displayCategory>
+        <exclusionTags>
+            <li>EBSG_Social_Suave</li>
+        </exclusionTags>
+    </GeneDef>
+
+    <GeneDef Abstract="true" Name="EBSG_Social_Terrifying">
+        <displayCategory>Beauty</displayCategory>
+        <exclusionTags>
+            <li>EBSG_Social_Terrifying</li>
+        </exclusionTags>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>EBSG_Enchanting</defName>
+        <label>enchanting</label>
+        <description>Carriers of this gene have voices and appearances that seem to draw in everyone around them. Other enchanting pawns are immune to this effect.</description>
+        <iconPath>EBSG/Gene_Enchanting</iconPath>
+        <displayCategory>Beauty</displayCategory>
+        <displayOrderInCategory>99.8</displayOrderInCategory>
+        <missingGeneRomanceChanceFactor>2</missingGeneRomanceChanceFactor>
+        <biostatMet>-1</biostatMet>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>enchant</symbol></li>
+                <li><symbol>sedu</symbol></li>
+            </prefixSymbols>
+        </symbolPack>
+        <exclusionTags>
+            <li>EBSG_MissingRomance</li>
+        </exclusionTags>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>EBSG_Crass</defName>
+        <label>crass</label>
+        <description>Carriers of this gene are extremely crass, and non-crass pawns usually shudder at the idea of having a relationship with them.</description>
+        <iconPath>EBSG/Gene_Crass</iconPath>
+        <displayCategory>Beauty</displayCategory>
+        <displayOrderInCategory>99.9</displayOrderInCategory>
+        <missingGeneRomanceChanceFactor>0.1</missingGeneRomanceChanceFactor>
+        <biostatMet>1</biostatMet>
+        <exclusionTags>
+            <li>EBSG_MissingRomance</li>
+        </exclusionTags>
+    </GeneDef>
+
+    <GeneDef MayRequire="Ludeon.RimWorld.Ideology">
+        <defName>EBSG_Preacher</defName>
+        <label>preacher</label>
+        <description>Carriers of this gene love to tell others about their ideological beliefs in the hopes that they can convince others to follow the path of morality.\n\nHow does this gene work? Nobody knows, but now you can change ideology spread chance on a more individual level!\n\nThere are only two levels because there isn't much purpose to having more variance in this field.</description>
+        <iconPath>EBSG/Gene_Preacher</iconPath>
+        <displayCategory>Beauty</displayCategory>
+        <displayOrderInCategory>99.7</displayOrderInCategory>
+        <biostatMet>-1</biostatMet>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>preach</symbol></li>
+            </prefixSymbols>
+        </symbolPack>
+        <statFactors>
+            <SocialIdeoSpreadFrequencyFactor>3</SocialIdeoSpreadFrequencyFactor>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef MayRequire="Ludeon.RimWorld.Ideology">
+        <defName>EBSG_Unpreachy</defName>
+        <label>un-preachy</label>
+        <description>Carriers of this gene dislike talking about their ideological beliefs, prefering to talk about other subjects in conversation.\n\nHow does this gene work? Nobody knows, but now you can change ideology spread chance on a more individual level!\n\nThere are only two levels because there isn't much purpose to having more variance in this field.</description>
+        <iconPath>EBSG/Gene_Unpreachy</iconPath>
+        <displayCategory>Beauty</displayCategory>
+        <displayOrderInCategory>99.6</displayOrderInCategory>
+        <biostatMet>1</biostatMet>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>preach</symbol></li>
+            </prefixSymbols>
+        </symbolPack>
+        <statFactors>
+            <SocialIdeoSpreadFrequencyFactor>0.1</SocialIdeoSpreadFrequencyFactor>
+        </statFactors>
+    </GeneDef>
+</Defs>
